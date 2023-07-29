@@ -10,7 +10,7 @@ height: 100%;
 }
 #main{
     width: 100%;
-    height: 100%;
+height: 100vh;
     /* background-color: red;     */
 }
 #nav{
@@ -51,6 +51,11 @@ a{
    font-weight: 200;
 
 }
+#lone #data h1{
+    /* font-weight: 400; */
+    font-size: 50px;
+}
+
 .page{
     width: 100%;
     height: 100%;
@@ -58,6 +63,7 @@ a{
 #one{
     background-color: #FFF7E7;
     display: flex;
+    /* flex-direction: column; */
 }
 #lone{
     width: 50%;
@@ -80,6 +86,7 @@ a{
 #rone img{
     width: 90%;
     height: 50%;
+
 }
 #two{
     background-color:#ebe7df;
@@ -107,4 +114,363 @@ a{
 background-color: #D44E15;
 transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 color: #fff;
+}
+#three{
+    background-color: #FFF7E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 9vw;
+    padding: 12px;
+}
+.ele1{
+    text-align: center;
+    padding: 1vh;
+}
+#fup{
+    width: 100vw;
+    height: 50vh;
+    background-color: #222132;
+    display: flex;
+}
+#fup #heading h3{
+color: #fff;
+font-size: 3vmax;
+font-weight: 550;
+text-align: start;
+margin-right: 4vmax;
+margin-bottom: 0.5vmax;
+
+}
+#fup #entry h2{
+    color:#D44E15;
+    font-size: 2vmax;
+    }
+#fup #heading p{
+    color: #f0e9e9;
+    text-align: start;
+    }
+    #fup #entry #data4 input{
+        width: 35vmax;
+        height: 3vmax;
+        background-color: transparent;
+        border: 1px solid silver;
+        padding: 1vmax;
+        color: #fff;
+    }
+    #fup #entry #data4 button{
+        background-color: #D44E15;
+        color: #fff;
+        border: none;
+        width: 10vw;
+        height: 6.5vh;
+        border-radius:0.25vmax;
+    }
+    #flower{
+        padding: 3vmax;
+    }
+    #flower h2{
+        color: #fff;
+        font-size: 1.2vmax;
+    }
+#fdown{
+    width: 100vw;
+    height: 35vh;
+    background-color: #2F2E41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#flower{
+    width: 100vw;
+    height: 15vh;
+    background-color: #222132;
+}
+#heading{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#fup #entry{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.3vmax;
+    gap: 1vmax;
+}
+#fdl{
+    width: 50%;
+    height: 100%;
+    /* background-color: orangered; */
+    padding: 4vmax;
+}
+#fdr{
+    width: 50%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#c1{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(124, 96, 96); */
+    padding: 2vmax;
+  
+}
+#c1 p{
+ margin-bottom: 1vmax;
+ color:silver;
+
+}
+#c2 p{
+    margin-bottom: 1vmax;
+    color: silver;
+   }
+   #c3 p{
+    margin-bottom: 1vmax;
+    color: silver;
+   }
+#c2{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(30, 16, 16); */
+   
+    padding: 2vmax;
+}
+#c3{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(220, 152, 152); */
+
+    padding: 2vmax;
+}
+#fdr p :hover {
+   background-color: #D44E15;
+
+}
+
+#preloader{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.loader{
+    height: 70px;
+    width: 70px;
+    border: 8px solid #e3e3e3;
+    border-radius:50%;
+    border-right-color: #D44E15;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+
+    }
+    
+    
+}
+@media(max-width:500px){
+
+   #nav{
+    width: 100vw;
+    position: fixed;
+   }
+   #nav a{
+    font-size: 9px;
+
+   }
+   #one{
+    height: fit-content;
+   }
+   #rnav{
+gap: 8px;
+   }
+   #rnav button{
+    background-color: #D44E15;
+    color: #fff;
+    border: none;
+    font-size: 4px;
+    width: 4.5vw;
+    height: 3vh;
+   border-radius: 3px;
+   font-weight: 200;
+   padding: 2px;
+   margin-right: 5px;
+}
+   #rnav{
+font-size: 10px;
+   }
+#one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#rone{
+    width: 50%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rone img{
+    width: 100%;
+    height: 80%;
+}
+#lone{
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+
+}
+#lone #data h1{
+    /* font-weight: 400; */
+    font-size: 45px;
+}
+#down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+#two{
+    background-color:#ebe7df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+#card{
+    width: 90vw;
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    text-align: center;
+}
+#card:hover{ 
+    background-color: #D44E15;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    color: #fff;
+    }
+    #tup{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 9vw;
+        padding: 12px;
+    }
+    #fup{
+        width: 100vw;
+        height: 50vh;
+        background-color: #222132;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    padding: 1vmax;
+
+    
+    }
+    #fup #heading h3{
+        color: #fff;
+        font-size: 4.5vmax;
+        font-weight: 550;
+        text-align: center;
+        /* margin-right: 2vmax; */
+        margin-bottom: 2vmax;
+
+        
+        }
+        #fup #heading p{
+            color: #f0e9e9;
+            text-align: center;
+         font-size: 3vmax;
+            }
+            #fup #entry h2{
+                color:#D44E15;
+                font-size: 2vmax;
+                text-align: center;
+                }
+                #fup #entry #data4 input{
+                    width: 35vmax;
+                    height: 3vmax;
+                    background-color: transparent;
+                    border: 1px solid silver;
+                    padding: 1vmax;
+                    color: #fff;
+                    margin-bottom: 1vmax;
+                }
+                #fup #entry #data4 button{
+                    background-color: #D44E15;
+                    color: #fff;
+                    border: none;
+                    width: 12vw;
+                    height: 4vh;
+                    border-radius:0.25vmax;
+                    font-size: 10px;
+                   
+                }
+                #data4{
+                    display: flex;
+                    flex-direction: column;
+                    /* align-items: center; */
+                   
+                }
+                #flower h2{
+                    color: #fff;
+                    font-size: 3vmax;
+                    margin-left: 10vmax;
+                }
+                #fdown{
+                    width: 100vw;
+                    height: fit-content;
+                    background-color: #2F2E41;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                #fdr{
+                    width: 100%;
+                    height: 100%;
+                    /* background-color: purple; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                }
+ 
 }
